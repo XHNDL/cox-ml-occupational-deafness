@@ -1,0 +1,25 @@
+# ===== IDE =====
+.idea/
+.vscode/
+*.iml
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
+
+# ===== 不上传的内容 =====
+# 论文正文不上传（按需求排除）
+论文.docx
+*.docx
+
+# ===== 临时文件 =====
+_tmp_*
+~$*
+*.log
+.DS_Store
+Thumbs.db
