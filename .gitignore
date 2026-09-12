@@ -1,24 +1,25 @@
-# 数据文件（太大不上传）
-data/*.xlsx
-
-# 模型文件
-models_cox_ml/*.pkl
-
-# Python缓存
-__pycache__/
-*.pyc
-*.pyo
-
-# IDE配置
+# ===== IDE =====
 .idea/
+.vscode/
+*.iml
 
-# 结果文件（可选保留）
-result/
-*.png
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+venv/
+.venv/
+env/
 
-# 日志
+# ===== 不上传的内容 =====
+# 论文正文不上传（按需求排除）
+论文.docx
+*.docx
+
+# ===== 临时文件 =====
+_tmp_*
+~$*
 *.log
-
-# 操作系统文件
 .DS_Store
 Thumbs.db
