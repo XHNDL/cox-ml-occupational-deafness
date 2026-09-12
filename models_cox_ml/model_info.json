@@ -1,0 +1,19 @@
+{
+  "model_type": "Cox + ML Unified",
+  "ml_model": "Gradient Boosting",
+  "ml_auc": 0.6693077478024525,
+  "cox_auc": 0.43536872870724824,
+  "combined_auc": 0.5728607164471511,
+  "features": [
+    "性别",
+    "年龄",
+    "接害工龄_年",
+    "身高_cm",
+    "体重_kg",
+    "BMI",
+    "收缩压_mmHg",
+    "舒张压_mmHg"
+  ],
+  "integration_method": "Simple weighted average (50% each)",
+  "cox_concordance": 0.5558266376777709
+}

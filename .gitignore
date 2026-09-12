@@ -1,0 +1,24 @@
+# 数据文件（太大不上传）
+data/*.xlsx
+
+# 模型文件
+models_cox_ml/*.pkl
+
+# Python缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE配置
+.idea/
+
+# 结果文件（可选保留）
+result/
+*.png
+
+# 日志
+*.log
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
